@@ -1,13 +1,14 @@
 """
 Hacer un menú iterativo que permita al usuario realizar las siguientes operaciones:
 
-1.Agregar pasajeros a la lista de viajeros.
-2.Agregar ciudades a la lista de ciudades.
-3.Dado el DNI de un pasajero, ver a qué ciudad viaja.
-4.Dada una ciudad, mostrar la cantidad de pasajeros que viajan a esa ciudad.
-5.Dado el DNI de un pasajero, ver a qué país viaja.
-6.Dado un país, mostrar cuántos pasajeros viajan a ese país.
-7.Salir del programa.
+0. Salir del programa.
+1. Ver lista de alumnos.
+2. Agregar estudiante.
+3. Eliminar estudiante.
+4. Ver informacion de estudiante mediante ID.
+5. Ver lista de materiales.
+6. Ver calificaciones mediante ID.
+
 """
 
 
@@ -17,27 +18,37 @@ class Escuela:
     def ver_lista(self):
         print("\n\nLista de alumnos actuales: ", self.lista_alumnos)
 
+    def agregar_estudiantes(self):
+        name = input("Ingrese nombre: ")
+        age = input("Ingrese edad: ")
+        identification = input("Ingrese ID: ")
+        student_information = (name, age, identification)
+        self.lista_alumnos.append(student_information)
 
 def main():
     alumnus = Escuela()
 
     dict_information = {
 
-        1: alumnus.ver_lista
+        1: alumnus.ver_lista,
+        2: alumnus.agregar_estudiantes
 
     }
 
     while True:
         print("""
-        1. Ver lista de estudiantes.    
+        0. Salir.
+        1. Ver lista de estudiantes.
+        2. Agregar estudiante.     
         """)
         try:
-            opcion = int(input("Ingrese option:\t"))
+            opcion = int(input("Ingrese opcion:\t"))
         except:
             print("Opcion Invalida")
             continue
 
-        if opcion == 7:
+        if opcion == 0:
+            print("Bye Bye")
             break
 
         dict_information[opcion]()
