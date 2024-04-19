@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47ac419f-d64b-4d28-9f8e-f1ecf180fbaf" name="Changes" comment="Repaso de estructuras de datos y algoritmos con Python.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuplas/tuplas_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tuplas/tuplas_01.py" afterDir="false" />
-    </list>
+    <list default="true" id="47ac419f-d64b-4d28-9f8e-f1ecf180fbaf" name="Changes" comment="New directory called: Tuplas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713488064448</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New directory called: Tuplas">
+      <option name="closed" value="true" />
+      <created>1713514496864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713514496864</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,7 +102,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -105,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Repaso de estructuras de datos y algoritmos con Python." />
-    <option name="LAST_COMMIT_MESSAGE" value="Repaso de estructuras de datos y algoritmos con Python." />
+    <MESSAGE value="New directory called: Tuplas" />
+    <option name="LAST_COMMIT_MESSAGE" value="New directory called: Tuplas" />
   </component>
 </project>
